@@ -13,7 +13,7 @@ add_executable(SBomberProject   SBomberProject.cpp
                                 ScreenSingleton.cpp
                                 FileLoggerSingleton.cpp
                                 FileLoggerSingletonProxy.cpp
-                                CurDateTime.cpp
+                                FileLoggerSingletonProxyTime.cpp
                                 )
                                 
 set(CMAKE_CXX_STANDARD 17)

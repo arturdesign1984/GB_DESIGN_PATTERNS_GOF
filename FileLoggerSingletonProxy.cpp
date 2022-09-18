@@ -13,18 +13,18 @@ void FileLoggerSingletonProxy::CloseLogFile()
 void __fastcall FileLoggerSingletonProxy::WriteToLog(const std::string &str)
 {
 
-    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + " - " + curTime->GetInstance().GetCurDateTime() + " - " + str;
+    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + "\t- " + str;
     fileLogger->GetInstance().WriteToLog(logStr);
 }
 
 void __fastcall FileLoggerSingletonProxy::WriteToLog(const std::string &str, int n)
 {
-    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + " - " + curTime->GetInstance().GetCurDateTime() + str;
-    fileLogger->GetInstance().WriteToLog(str, n);
+    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + "\t- " + str;
+    fileLogger->GetInstance().WriteToLog(logStr, n);
 }
 
 void __fastcall FileLoggerSingletonProxy::WriteToLog(const std::string &str, double d)
 {
-    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + " - " + curTime->GetInstance().GetCurDateTime() + str;
-    fileLogger->GetInstance().WriteToLog(str, d);
+    logStr = std::to_string(++FileLoggerSingletonProxy::nomberOfCalls) + "\t- " + str;
+    fileLogger->GetInstance().WriteToLog(logStr, d);
 }

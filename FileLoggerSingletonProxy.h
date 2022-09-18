@@ -1,6 +1,5 @@
 #include "FileLoggerSingletonBase.h"
 #include "FileLoggerSingleton.h"
-#include "CurDateTime.h"
 
 #include <fstream>
 
@@ -8,7 +7,6 @@ class FileLoggerSingletonProxy : public FileLoggerSingletonBase
 {
 private:
     std::string logStr;
-    CurDateTime *curTime;
     uint32_t nomberOfCalls = 0;
     FileLoggerSingleton *fileLogger;
     FileLoggerSingletonProxy(){};
