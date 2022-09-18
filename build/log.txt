@@ -1,0 +1,812 @@
+1	- Sun Sep 18 15:34:19 2022 - SBomber was invoked
+2	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+3	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+4	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+5	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+6	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+7	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+8	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+9	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+10	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+11	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+12	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+13	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+14	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+15	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+16	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+17	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+18	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+19	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+20	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+21	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+22	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+23	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+24	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+25	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+26	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+27	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+28	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+29	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+30	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+31	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+32	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+33	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+34	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+35	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+36	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+37	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+38	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+39	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+40	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+41	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+42	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+43	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+44	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+45	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+46	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+47	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+48	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+49	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+50	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+51	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 0
+52	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+53	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+54	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+55	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+56	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+57	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+58	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+59	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+60	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+61	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+62	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+63	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+64	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+65	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+66	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+67	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+68	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+69	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+70	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+71	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+72	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+73	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+74	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+75	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+76	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+77	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+78	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+79	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+80	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+81	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+82	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+83	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+84	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+85	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+86	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+87	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+88	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+89	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+90	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+91	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+92	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+93	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+94	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+95	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+96	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+97	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+98	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+99	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+100	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+101	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+102	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+103	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+104	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+105	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+106	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 0
+107	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+108	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+109	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+110	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+111	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+112	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+113	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+114	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+115	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+116	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+117	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+118	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+119	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+120	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+121	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+122	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+123	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+124	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+125	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+126	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+127	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+128	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+129	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+130	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+131	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+132	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+133	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+134	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+135	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+136	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+137	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+138	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+139	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+140	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+141	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+142	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+143	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+144	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+145	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+146	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+147	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+148	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+149	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+150	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+151	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+152	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+153	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+154	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+155	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+156	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+157	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+158	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+159	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+160	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+161	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 0
+162	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+163	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+164	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+165	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+166	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+167	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+168	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+169	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+170	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+171	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+172	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+173	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+174	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+175	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+176	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+177	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+178	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+179	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+180	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+181	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+182	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+183	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+184	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+185	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+186	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+187	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+188	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+189	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+190	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+191	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+192	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+193	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+194	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+195	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+196	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+197	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+198	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+199	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+200	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+201	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+202	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+203	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+204	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+205	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+206	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+207	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+208	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+209	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+210	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+211	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+212	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+213	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+214	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+215	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+216	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 0
+217	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+218	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+219	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+220	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+221	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+222	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+223	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+224	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+225	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+226	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+227	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+228	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+229	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+230	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+231	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+232	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+233	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+234	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+235	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+236	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+237	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+238	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+239	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+240	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+241	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+242	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+243	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+244	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+245	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+246	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+247	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+248	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+249	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+250	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+251	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+252	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+253	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+254	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+255	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+256	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 15
+257	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+258	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+259	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+260	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+261	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+262	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+263	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+264	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+265	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+266	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 16
+267	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+268	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+269	- Sun Sep 18 15:34:19 2022 - MoveObjects was invoked
+270	- Sun Sep 18 15:34:19 2022 - CheckObjects was invoked
+271	- Sun Sep 18 15:34:19 2022 - TimeFinish deltaTime = 0
+272	- Sun Sep 18 15:34:19 2022 - TimeStart was invoked
+273	- Sun Sep 18 15:34:19 2022 - DrawFrame was invoked
+274	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+275	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+276	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+277	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+278	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+279	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+280	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+281	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+282	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+283	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+284	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+285	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+286	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+287	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+288	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+289	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+290	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+291	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+292	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+293	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+294	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+295	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+296	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+297	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+298	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+299	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+300	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+301	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+302	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+303	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+304	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+305	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+306	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+307	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+308	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+309	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+310	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+311	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+312	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+313	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+314	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+315	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+316	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+317	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+318	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+319	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+320	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+321	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+322	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+323	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+324	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+325	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+326	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+327	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+328	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+329	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+330	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+331	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+332	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+333	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+334	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+335	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+336	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+337	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+338	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+339	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+340	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+341	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+342	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+343	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+344	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+345	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+346	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+347	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+348	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+349	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+350	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+351	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+352	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+353	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+354	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+355	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+356	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+357	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+358	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+359	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+360	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+361	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+362	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+363	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+364	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+365	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+366	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+367	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+368	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+369	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+370	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+371	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+372	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+373	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+374	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+375	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+376	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+377	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+378	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+379	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+380	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+381	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+382	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+383	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+384	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+385	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+386	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+387	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+388	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+389	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+390	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+391	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+392	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+393	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+394	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+395	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+396	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+397	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+398	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+399	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+400	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+401	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+402	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+403	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+404	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+405	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+406	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+407	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+408	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+409	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+410	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+411	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+412	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+413	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+414	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+415	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+416	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+417	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+418	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+419	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+420	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+421	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+422	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+423	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+424	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+425	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+426	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+427	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+428	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+429	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+430	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+431	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+432	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+433	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+434	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+435	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+436	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+437	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+438	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+439	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+440	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+441	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+442	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+443	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+444	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+445	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+446	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+447	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+448	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+449	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+450	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+451	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+452	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+453	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+454	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+455	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+456	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+457	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+458	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+459	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+460	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+461	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+462	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+463	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+464	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+465	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+466	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+467	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+468	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+469	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+470	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+471	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+472	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+473	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+474	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+475	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+476	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+477	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+478	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+479	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+480	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+481	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+482	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+483	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+484	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+485	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+486	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+487	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+488	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+489	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+490	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+491	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+492	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+493	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+494	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+495	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+496	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+497	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+498	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+499	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+500	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+501	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+502	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+503	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+504	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+505	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+506	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+507	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+508	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+509	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+510	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+511	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+512	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+513	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+514	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+515	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+516	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+517	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+518	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+519	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+520	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+521	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+522	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+523	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+524	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+525	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+526	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+527	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+528	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+529	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+530	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+531	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+532	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+533	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+534	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+535	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+536	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+537	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+538	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+539	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+540	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+541	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+542	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+543	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+544	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+545	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+546	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+547	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+548	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+549	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+550	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+551	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+552	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+553	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+554	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+555	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+556	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+557	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+558	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+559	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+560	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+561	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+562	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+563	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+564	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+565	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+566	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+567	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+568	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+569	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+570	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+571	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+572	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+573	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+574	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+575	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+576	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+577	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+578	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+579	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+580	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+581	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 0
+582	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+583	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+584	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+585	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+586	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+587	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+588	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+589	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+590	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+591	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+592	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+593	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+594	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+595	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+596	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+597	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+598	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+599	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+600	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+601	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+602	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+603	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+604	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+605	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+606	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+607	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+608	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+609	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+610	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+611	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+612	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+613	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+614	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+615	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+616	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+617	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+618	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+619	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+620	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+621	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 16
+622	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+623	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+624	- Sun Sep 18 15:34:20 2022 - MoveObjects was invoked
+625	- Sun Sep 18 15:34:20 2022 - CheckObjects was invoked
+626	- Sun Sep 18 15:34:20 2022 - TimeFinish deltaTime = 15
+627	- Sun Sep 18 15:34:20 2022 - TimeStart was invoked
+628	- Sun Sep 18 15:34:20 2022 - DrawFrame was invoked
+629	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+630	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+631	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 0
+632	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+633	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+634	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+635	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+636	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+637	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+638	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+639	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+640	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+641	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+642	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+643	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+644	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+645	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+646	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+647	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+648	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+649	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+650	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+651	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+652	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+653	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+654	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+655	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+656	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+657	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+658	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+659	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+660	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+661	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+662	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+663	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+664	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+665	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+666	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+667	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+668	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+669	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+670	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+671	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+672	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+673	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+674	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+675	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+676	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+677	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+678	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+679	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+680	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+681	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 0
+682	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+683	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+684	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+685	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+686	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+687	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+688	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+689	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+690	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+691	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+692	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+693	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+694	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+695	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+696	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+697	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+698	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+699	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+700	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+701	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+702	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+703	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+704	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+705	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+706	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+707	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+708	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+709	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+710	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+711	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+712	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+713	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+714	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+715	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+716	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+717	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+718	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+719	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+720	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+721	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+722	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+723	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+724	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+725	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+726	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+727	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+728	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+729	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+730	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+731	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 0
+732	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+733	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+734	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+735	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+736	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+737	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+738	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+739	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+740	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+741	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+742	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+743	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+744	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+745	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+746	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+747	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+748	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+749	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+750	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+751	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+752	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+753	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+754	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+755	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+756	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+757	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+758	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+759	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+760	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+761	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+762	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+763	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+764	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+765	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+766	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+767	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+768	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+769	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+770	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+771	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+772	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+773	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+774	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+775	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+776	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+777	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+778	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+779	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+780	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+781	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 0
+782	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+783	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+784	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+785	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+786	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+787	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+788	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+789	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+790	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+791	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+792	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+793	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+794	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+795	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+796	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+797	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+798	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+799	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+800	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+801	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
+802	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+803	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+804	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+805	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+806	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 15
+807	- Sun Sep 18 15:34:21 2022 - TimeStart was invoked
+808	- Sun Sep 18 15:34:21 2022 - ProcessKBHit was invoked. key = 27
+809	- Sun Sep 18 15:34:21 2022 - DrawFrame was invoked
+810	- Sun Sep 18 15:34:21 2022 - MoveObjects was invoked
+811	- Sun Sep 18 15:34:21 2022 - CheckObjects was invoked
+812	- Sun Sep 18 15:34:21 2022 - TimeFinish deltaTime = 16
