@@ -1,2 +1,4 @@
-/build
+/build/*
+!/build/log.txt
+!/build/SBomberProject.exe
 /.vscode

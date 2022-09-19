@@ -7,6 +7,7 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "FileLoggerSingletonProxyTime.h"
 
 class SBomber
 {
@@ -26,7 +27,7 @@ public:
     void CheckObjects();
 
 private:
-
+    FileLoggerSingletonBase *fileLogger = &FileLoggerSingletonProxyTime::GetInstance().GetInstance();
     void CheckPlaneAndLevelGUI();
     void CheckBombsAndGround();
     void __fastcall CheckDestoyableObjects(Bomb* pBomb);
