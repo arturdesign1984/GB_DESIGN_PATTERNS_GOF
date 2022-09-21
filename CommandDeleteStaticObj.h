@@ -17,16 +17,5 @@ public:
         gObj = nullptr;
     }
 
-    void Execute() override
-	{
-		auto it = this->vecStaticObj->begin();
-		for (; it != this->vecStaticObj->end(); it++)
-		{
-			if (*it == gObj)
-			{
-				this->vecStaticObj->erase(it);
-				break;
-			}
-		}
-	}
+	void Execute() override;
 };

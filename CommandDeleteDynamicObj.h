@@ -11,16 +11,5 @@ private:
 
 public:
 	CommandDeleteDynamicObj(std::vector<DynamicObject *> &vecDynamicObj, DynamicObject *dObj) : vecDynamicObj(&vecDynamicObj), dObj(dObj){}
-	void Execute() override
-	{
-		auto it = this->vecDynamicObj->begin();
-		for (; it != this->vecDynamicObj->end(); it++)
-		{
-			if (*it == dObj)
-			{
-				this->vecDynamicObj->erase(it);
-				break;
-			}
-		}
-	}
+	void Execute() override;
 };
