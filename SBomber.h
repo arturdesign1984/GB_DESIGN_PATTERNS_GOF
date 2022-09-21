@@ -7,6 +7,10 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "Command.h"
+#include "CommandDeleteDynamicObj.h"
+#include "CommandDeleteStaticObj.h"
+#include "CommandDropBomb.h"
 
 class SBomber
 {
@@ -50,4 +54,6 @@ private:
     uint64_t startTime, finishTime, passedTime;
     uint16_t bombsNumber, deltaTime, fps;
     int16_t score;
+
+    Command* pCommand;
 };
