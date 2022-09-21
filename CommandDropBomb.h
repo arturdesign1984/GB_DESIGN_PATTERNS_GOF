@@ -3,6 +3,7 @@
 #include "Command.h"
 #include "SBomber.h"
 #include "MyTools.h"
+#include "BombDecorator.h"
 
 class CommandDropBomb : public Command
 {
