@@ -8,7 +8,7 @@
 using namespace std;
 using namespace MyTools;
 
-void Plane::Draw() const
+void Plane::Draw()
 {
     MyTools::SetColor(CC_LightBlue);
     ScreenSingleton::GetInstance().GotoXY(x, y);

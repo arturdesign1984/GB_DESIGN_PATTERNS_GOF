@@ -1,5 +1,6 @@
 ﻿
 #include <conio.h>
+#include <windows.h>
 
 #include "SBomber.h"
 #include "MyTools.h"
@@ -26,6 +27,7 @@ int main(void)
         ScreenSingleton::GetInstance().ClrScr();
 
         game.DrawFrame();
+        Sleep(10);
         game.MoveObjects();
         game.CheckObjects();
 

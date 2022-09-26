@@ -10,7 +10,7 @@ using namespace MyTools;
 
 //==================================================================================================
 
-void Crater::Draw() const
+void Crater::Draw()
 {
     if (width == SMALL_CRATER_SIZE) // ��������� ������� � 9 �������� �������
     {
@@ -34,7 +34,7 @@ bool Crater::isInside(double xn) const
 
 //==================================================================================================
 
-void Ground::Draw() const
+void Ground::Draw()
 {
     MyTools::SetColor(CC_Green);
 

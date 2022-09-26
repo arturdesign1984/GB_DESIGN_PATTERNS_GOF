@@ -16,7 +16,7 @@ public:
     inline uint16_t GetFinishX() const { return finishX; }
     inline void SetFinishX(uint16_t finishXN) { finishX = finishXN; }
 
-    void Draw() const override;
+    void Draw() override;
 
 private:
 
