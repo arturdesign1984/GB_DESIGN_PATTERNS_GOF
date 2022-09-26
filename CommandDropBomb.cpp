@@ -9,7 +9,7 @@ void CommandDropBomb::Execute()
         double x = pPlane->GetX() + 4;
         double y = pPlane->GetY() + 2;
 
-        Bomb* pBomb = new BombDecorator;
+        DynamicObject* pBomb = new BombDecorator;
         pBomb->SetDirection(0.3, 1);
         pBomb->SetSpeed(2);
         pBomb->SetPos(x, y);

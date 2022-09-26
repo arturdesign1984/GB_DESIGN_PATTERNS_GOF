@@ -4,8 +4,9 @@
 #include "RealBomb.h"
 #include "MyTools.h"
 #include "ScreenSingleton.h"
+#include "DynamicObject.h"
 
-class BombDecorator : public Bomb
+class BombDecorator : public DynamicObject
 {
 private:
     Bomb *pBomb;
