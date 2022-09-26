@@ -6,7 +6,7 @@
 #include "ScreenSingleton.h"
 #include "DynamicObject.h"
 
-class BombDecorator : public DynamicObject
+class BombDecorator : public Bomb
 {
 private:
     Bomb *pBomb;
