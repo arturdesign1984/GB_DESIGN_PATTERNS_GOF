@@ -31,7 +31,7 @@ bool Tank::isInside(double x1, double x2) const
 	return false;
 }
 
-void Tank::Draw() const
+void Tank::Draw()
 {
 	MyTools::SetColor(CC_Brown);
 	ScreenSingleton::GetInstance().GotoXY(x, y - 3);

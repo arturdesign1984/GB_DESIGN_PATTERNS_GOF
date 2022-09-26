@@ -8,7 +8,7 @@
 using namespace std;
 using namespace MyTools;
 
-void Bomb::Draw() const
+void Bomb::Draw()
 {
     MyTools::SetColor(CC_LightMagenta);
     ScreenSingleton::GetInstance().GotoXY(x, y);

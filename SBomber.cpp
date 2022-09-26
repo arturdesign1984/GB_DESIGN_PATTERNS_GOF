@@ -9,6 +9,7 @@
 #include "Tank.h"
 #include "House.h"
 #include "ScreenSingleton.h"
+#include "TankAdapter.h"
 
 using namespace std;
 using namespace MyTools;
@@ -49,15 +50,15 @@ SBomber::SBomber()
     pGr->SetWidth(width - 2);
     vecStaticObj.push_back(pGr);
 
-    Tank* pTank = new Tank;
-    pTank->SetWidth(13);
-    pTank->SetPos(30, groundY - 1);
-    vecStaticObj.push_back(pTank);
+    Tank* pTank1 = new Tank;
+    pTank1->SetWidth(13);
+    pTank1->SetPos(30, groundY - 1);
+    vecStaticObj.push_back(pTank1);
 
-    pTank = new Tank;
-    pTank->SetWidth(13);
-    pTank->SetPos(50, groundY - 1);
-    vecStaticObj.push_back(pTank);
+    TankAdapter* pTank2 = new TankAdapter;
+    pTank2->SetWidth(13);
+    pTank2->SetPos(50, groundY - 1);
+    vecStaticObj.push_back(pTank2);
 
     House * pHouse = new House;
     pHouse->SetWidth(13);
@@ -186,13 +187,22 @@ vector<DestroyableGroundObject*> SBomber::FindDestoyableGroundObjects() const
 {
     vector<DestroyableGroundObject*> vec;
     Tank* pTank;
+    TankAdapter *pTankAdapter;
     House* pHouse;
+
     for (size_t i = 0; i < vecStaticObj.size(); i++)
     {
         pTank = dynamic_cast<Tank*>(vecStaticObj[i]);
         if (pTank != nullptr)
         {
             vec.push_back(pTank);
+            continue;
+        }
+
+        pTankAdapter = dynamic_cast<TankAdapter*>(vecStaticObj[i]);
+        if (pTankAdapter != nullptr)
+        {
+            vec.push_back(pTankAdapter);
             continue;
         }
 
@@ -223,17 +233,25 @@ Ground* SBomber::FindGround() const
     return nullptr;
 }
 
-vector<Bomb*> SBomber::FindAllBombs() const
+BombIterator SBomber::Begin()
+{
+    BombIterator it(vecDynamicObj);
+    return it;
+}
+BombIterator SBomber::End()
+{
+    BombIterator it(vecDynamicObj);
+    it.reset();
+    return it;
+}
+
+vector<Bomb*> SBomber::FindAllBombs()
 {
     vector<Bomb*> vecBombs;
 
-    for (size_t i = 0; i < vecDynamicObj.size(); i++)
+    for (BombIterator it = Begin(); it != End(); ++it)
     {
-        Bomb* pBomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
-        if (pBomb != nullptr)
-        {
-            vecBombs.push_back(pBomb);
-        }
+        vecBombs.push_back(static_cast<Bomb*>(*it));
     }
 
     return vecBombs;

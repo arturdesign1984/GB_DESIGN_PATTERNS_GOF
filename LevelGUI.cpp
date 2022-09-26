@@ -8,7 +8,7 @@
 using namespace std;
 using namespace MyTools;
 
-void LevelGUI::Draw() const
+void LevelGUI::Draw()
 {
     MyTools::SetColor(CC_White);
 
