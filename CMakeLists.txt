@@ -14,6 +14,7 @@ add_executable(SBomberProject   SBomberProject.cpp
                                 DefaultHouseBuilder.cpp
                                 HouseBlocks.cpp
                                 ModernHouseBuilder.cpp
+                                CollisionImplementorA.cpp
                                 ) 
                                 
 set(CMAKE_CXX_STANDARD 17)
