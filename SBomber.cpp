@@ -25,9 +25,10 @@ SBomber::SBomber()
 {
     logWriters.push_back(new LogWriterFunction());
     logWriters.push_back(new LogWriterDeltaTime());
+    logWriters.push_back(new LogWriterKeyPressed());
 
-    VisitorFunction visitorF(&funcName);
     funcName = string(__FUNCTION__);
+    VisitorFunction visitorF(&funcName);
     for(auto pElem : logWriters)
     {
         pElem->accept(visitorF);
@@ -107,8 +108,8 @@ SBomber::~SBomber()
 
 void SBomber::MoveObjects()
 {
-    VisitorFunction visitorF(&funcName);
     funcName = string(__FUNCTION__);
+    VisitorFunction visitorF(&funcName);
     for(auto pElem : logWriters)
     {
         pElem->accept(visitorF);
@@ -126,8 +127,8 @@ void SBomber::MoveObjects()
 
 void SBomber::CheckObjects()
 {
-    VisitorFunction visitorF(&funcName);
     funcName = string(__FUNCTION__);
+    VisitorFunction visitorF(&funcName);
     for(auto pElem : logWriters)
     {
         pElem->accept(visitorF);
@@ -300,8 +301,13 @@ void SBomber::ProcessKBHit()
         c = _getch();
     }
 
-
-    WriteToLog(string(__FUNCTION__) + " was invoked. key = ", c);
+    funcName = string(__FUNCTION__);
+    VisitorKeyPressed visitorK(&funcName,&c);
+    for(auto pElem : logWriters)
+    {
+        pElem->accept(visitorK);
+    }
+    // WriteToLog(string(__FUNCTION__) + " was invoked. key = ", c);
 
     switch (c) {
 
@@ -332,8 +338,8 @@ void SBomber::ProcessKBHit()
 
 void SBomber::DrawFrame()
 {
-    VisitorFunction visitorF(&funcName);
     funcName = string(__FUNCTION__);
+    VisitorFunction visitorF(&funcName);
     for(auto pElem : logWriters)
     {
         pElem->accept(visitorF);
@@ -364,8 +370,8 @@ void SBomber::DrawFrame()
 
 void SBomber::TimeStart()
 {
-    VisitorFunction visitorF(&funcName);
     funcName = string(__FUNCTION__);
+    VisitorFunction visitorF(&funcName);
     for(auto pElem : logWriters)
     {
         pElem->accept(visitorF);
@@ -381,7 +387,7 @@ void SBomber::TimeFinish()
     passedTime += deltaTime;
 
     // WriteToLog(string(__FUNCTION__) + " deltaTime = ", (int)deltaTime);
-    funcName = __FUNCTION__;
+    funcName = string(__FUNCTION__);
     VisitorTime visitorT(&funcName, &deltaTime);
     for(auto pElem : logWriters)
     {
@@ -393,7 +399,13 @@ void SBomber::DropBomb()
 {
     if (bombsNumber > 0)
     {
-        WriteToLog(string(__FUNCTION__) + " was invoked");
+        funcName = string(__FUNCTION__);
+        VisitorFunction visitorF(&funcName);
+        for(auto pElem : logWriters)
+        {
+            pElem->accept(visitorF);
+        }
+        // WriteToLog(string(__FUNCTION__) + " was invoked");
 
         Plane* pPlane = FindPlane();
         double x = pPlane->GetX() + 4;

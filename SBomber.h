@@ -10,10 +10,11 @@
 #include "LogWriterVirtual.h"
 #include "LogWriterFunction.h"
 #include "LogWriterDeltaTime.h"
+#include "LogWriterKeyPressed.h"
 #include "VisitorFunction.h"
 #include "VisitorTime.h"
 #include "VisitorVirtual.h"
-
+#include "VisitorKeyPressed.h"
 class SBomber
 {
 public:
@@ -53,8 +54,6 @@ private:
 
     std::string funcName;
     std::vector<LogWriterVirtual*> logWriters;
-    // VisitorFunction visitorF(string& funcName);
-    // VisitorTime visitorT(string& funcName,uint16_t& deltaTime);
     
 
     bool exitFlag;
