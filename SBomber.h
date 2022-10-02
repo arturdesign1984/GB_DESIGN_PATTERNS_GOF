@@ -7,6 +7,12 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
+#include "LogWriterVirtual.h"
+#include "LogWriterFunction.h"
+#include "LogWriterDeltaTime.h"
+#include "VisitorFunction.h"
+#include "VisitorTime.h"
+#include "VisitorVirtual.h"
 
 class SBomber
 {
@@ -44,7 +50,13 @@ private:
 
     std::vector<DynamicObject*> vecDynamicObj;
     std::vector<GameObject*> vecStaticObj;
+
+    std::string funcName;
+    std::vector<LogWriterVirtual*> logWriters;
+    // VisitorFunction visitorF(string& funcName);
+    // VisitorTime visitorT(string& funcName,uint16_t& deltaTime);
     
+
     bool exitFlag;
 
     uint64_t startTime, finishTime, passedTime;
