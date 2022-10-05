@@ -7,14 +7,8 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
-#include "LogWriterVirtual.h"
-#include "LogWriterFunction.h"
-#include "LogWriterDeltaTime.h"
-#include "LogWriterKeyPressed.h"
-#include "VisitorFunction.h"
-#include "VisitorTime.h"
-#include "VisitorVirtual.h"
-#include "VisitorKeyPressed.h"
+#include "LogVisitor.h"
+
 class SBomber
 {
 public:
@@ -52,9 +46,7 @@ private:
     std::vector<DynamicObject*> vecDynamicObj;
     std::vector<GameObject*> vecStaticObj;
 
-    std::string funcName;
-    std::vector<LogWriterVirtual*> logWriters;
-    
+    LogVisitor lv;
 
     bool exitFlag;
 

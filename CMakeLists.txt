@@ -11,12 +11,7 @@ add_executable(SBomberProject   SBomberProject.cpp
                                 Plane.cpp
                                 Tank.cpp
                                 ScreenSingleton.cpp
-                                LogWriterDeltaTime.cpp
-                                LogWriterFunction.cpp
-                                VisitorFunction.cpp
-                                VisitorTime.cpp
-                                LogWriterKeyPressed.cpp
-                                VisitorKeyPressed.cpp
+                                LogVisitor.cpp
                                 ) 
                                 
 set(CMAKE_CXX_STANDARD 17)

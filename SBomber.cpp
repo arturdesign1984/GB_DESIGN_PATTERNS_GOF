@@ -23,18 +23,7 @@ SBomber::SBomber()
     bombsNumber(10),
     score(0)
 {
-    logWriters.push_back(new LogWriterFunction());
-    logWriters.push_back(new LogWriterDeltaTime());
-    logWriters.push_back(new LogWriterKeyPressed());
-
-    funcName = string(__FUNCTION__);
-    VisitorFunction visitorF(&funcName);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorF);
-    }
-    
-    // WriteToLog(string(__FUNCTION__) + " was invoked");
+    WriteToLog(string(__FUNCTION__) + " was invoked");
 
     Plane* p = new Plane;
     p->SetDirection(1, 0.1);
@@ -108,32 +97,28 @@ SBomber::~SBomber()
 
 void SBomber::MoveObjects()
 {
-    funcName = string(__FUNCTION__);
-    VisitorFunction visitorF(&funcName);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorF);
-    }
-    // WriteToLog(string(__FUNCTION__) + " was invoked");
+    WriteToLog(string(__FUNCTION__) + " was invoked");
 
     for (size_t i = 0; i < vecDynamicObj.size(); i++)
     {
         if (vecDynamicObj[i] != nullptr)
         {
             vecDynamicObj[i]->Move(deltaTime);
+            if(dynamic_cast<Plane*> (vecDynamicObj[i]) != nullptr)
+            {
+                lv.log(dynamic_cast<Plane*> (vecDynamicObj[i]));
+            } else
+            {
+                lv.log(dynamic_cast<Bomb*> (vecDynamicObj[i]));
+            }
+            
         }
     }
 };
 
 void SBomber::CheckObjects()
 {
-    funcName = string(__FUNCTION__);
-    VisitorFunction visitorF(&funcName);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorF);
-    }
-    // WriteToLog(string(__FUNCTION__) + " was invoked");
+    WriteToLog(string(__FUNCTION__) + " was invoked");
 
     CheckPlaneAndLevelGUI();
     CheckBombsAndGround();
@@ -301,13 +286,7 @@ void SBomber::ProcessKBHit()
         c = _getch();
     }
 
-    funcName = string(__FUNCTION__);
-    VisitorKeyPressed visitorK(&funcName,&c);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorK);
-    }
-    // WriteToLog(string(__FUNCTION__) + " was invoked. key = ", c);
+    WriteToLog(string(__FUNCTION__) + " was invoked. key = ", c);
 
     switch (c) {
 
@@ -338,13 +317,7 @@ void SBomber::ProcessKBHit()
 
 void SBomber::DrawFrame()
 {
-    funcName = string(__FUNCTION__);
-    VisitorFunction visitorF(&funcName);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorF);
-    }
-    // WriteToLog(string(__FUNCTION__) + " was invoked");
+    WriteToLog(string(__FUNCTION__) + " was invoked");
 
     for (size_t i = 0; i < vecDynamicObj.size(); i++)
     {
@@ -370,13 +343,7 @@ void SBomber::DrawFrame()
 
 void SBomber::TimeStart()
 {
-    funcName = string(__FUNCTION__);
-    VisitorFunction visitorF(&funcName);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorF);
-    }
-    // WriteToLog(string(__FUNCTION__) + " was invoked");
+    WriteToLog(string(__FUNCTION__) + " was invoked");
     startTime = GetTickCount64();
 }
 
@@ -386,26 +353,14 @@ void SBomber::TimeFinish()
     deltaTime = uint16_t(finishTime - startTime);
     passedTime += deltaTime;
 
-    // WriteToLog(string(__FUNCTION__) + " deltaTime = ", (int)deltaTime);
-    funcName = string(__FUNCTION__);
-    VisitorTime visitorT(&funcName, &deltaTime);
-    for(auto pElem : logWriters)
-    {
-        pElem->accept(visitorT);
-    }
+    WriteToLog(string(__FUNCTION__) + " deltaTime = ", (int)deltaTime);
 }
 
 void SBomber::DropBomb()
 {
     if (bombsNumber > 0)
     {
-        funcName = string(__FUNCTION__);
-        VisitorFunction visitorF(&funcName);
-        for(auto pElem : logWriters)
-        {
-            pElem->accept(visitorF);
-        }
-        // WriteToLog(string(__FUNCTION__) + " was invoked");
+        WriteToLog(string(__FUNCTION__) + " was invoked");
 
         Plane* pPlane = FindPlane();
         double x = pPlane->GetX() + 4;
