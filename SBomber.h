@@ -29,7 +29,6 @@ private:
 
     void CheckPlaneAndLevelGUI();
     void CheckBombsAndGround();
-    void __fastcall CheckDestoyableObjects(Bomb* pBomb);
 
     void __fastcall DeleteDynamicObj(DynamicObject * pBomb);
     void __fastcall DeleteStaticObj(GameObject* pObj);
@@ -44,7 +43,7 @@ private:
 
     std::vector<DynamicObject*> vecDynamicObj;
     std::vector<GameObject*> vecStaticObj;
-    
+
     bool exitFlag;
 
     uint64_t startTime, finishTime, passedTime;
