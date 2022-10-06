@@ -72,6 +72,8 @@ SBomber::SBomber()
     pBomb->SetSize(SMALL_CRATER_SIZE);
     vecDynamicObj.push_back(pBomb);
     */
+
+
 }
 
 SBomber::~SBomber()
@@ -102,6 +104,14 @@ void SBomber::MoveObjects()
         if (vecDynamicObj[i] != nullptr)
         {
             vecDynamicObj[i]->Move(deltaTime);
+            if(dynamic_cast<Plane*> (vecDynamicObj[i]) != nullptr)
+            {
+                lv.log(dynamic_cast<Plane*> (vecDynamicObj[i]));
+            } else
+            {
+                lv.log(dynamic_cast<Bomb*> (vecDynamicObj[i]));
+            }
+            
         }
     }
 };
