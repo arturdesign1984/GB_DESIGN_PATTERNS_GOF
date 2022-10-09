@@ -4,14 +4,17 @@
 #include "SBomber.h"
 #include "MyTools.h"
 #include "ScreenSingleton.h"
+#include "FileLogger.h"
 
 using namespace std;
 
 //========================================================================================================================
 
+FileLogger logger("log.txt");
+
 int main(void)
 {
-    MyTools::OpenLogFile("log.txt");
+    // MyTools::OpenLogFile("log.txt");
 
     SBomber game;
 
@@ -33,7 +36,7 @@ int main(void)
 
     } while (!game.GetExitFlag());
 
-    MyTools::CloseLogFile();
+    // MyTools::CloseLogFile();
 
     return 0;
 }
