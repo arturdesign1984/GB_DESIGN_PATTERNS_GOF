@@ -11,6 +11,6 @@ add_executable(SBomberProject   SBomberProject.cpp
                                 Plane.cpp
                                 Tank.cpp
                                 ScreenSingleton.cpp
-                                ) 
+                                )
                                 
 set(CMAKE_CXX_STANDARD 17)
