@@ -9,6 +9,9 @@
 #include "Tank.h"
 #include "House.h"
 #include "ScreenSingleton.h"
+// #include "Mediator.h"
+
+class Mediator;
 
 using namespace std;
 using namespace MyTools;
@@ -32,6 +35,9 @@ SBomber::SBomber()
     vecDynamicObj.push_back(p);
 
     LevelGUI* pGUI = new LevelGUI;
+    pGUI->m = new Mediator;
+    pGUI->SetMediator(pGUI->m);
+    pGUI->m->SetQueue(pGUI->GetQueue());
     pGUI->SetParam(passedTime, fps, bombsNumber, score);
     const uint16_t maxX = ScreenSingleton::GetInstance().GetMaxX();
     const uint16_t maxY = ScreenSingleton::GetInstance().GetMaxY(); 
@@ -49,12 +55,12 @@ SBomber::SBomber()
     pGr->SetWidth(width - 2);
     vecStaticObj.push_back(pGr);
 
-    Tank* pTank = new Tank;
+    Tank* pTank = new Tank(pGUI->m);
     pTank->SetWidth(13);
     pTank->SetPos(30, groundY - 1);
     vecStaticObj.push_back(pTank);
 
-    pTank = new Tank;
+    pTank = new Tank(pGUI->m);
     pTank->SetWidth(13);
     pTank->SetPos(50, groundY - 1);
     vecStaticObj.push_back(pTank);
@@ -327,7 +333,6 @@ void SBomber::DrawFrame()
 
     ScreenSingleton::GetInstance().GotoXY(0, 0);
     fps++;
-
     FindLevelGUI()->SetParam(passedTime, fps, bombsNumber, score);
 }
 
