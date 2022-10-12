@@ -24,6 +24,7 @@ public:
     void DrawFrame();
     void MoveObjects();
     void CheckObjects();
+    void AnimateScrolling();
 
 private:
 
@@ -51,3 +52,4 @@ private:
     uint16_t bombsNumber, deltaTime, fps;
     int16_t score;
 };
+
