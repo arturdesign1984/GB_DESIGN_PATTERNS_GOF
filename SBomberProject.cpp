@@ -33,6 +33,8 @@ int main(void)
 
     } while (!game.GetExitFlag());
 
+    game.AnimateScrolling();// Вызов анимированногоскроллинга
+
     MyTools::CloseLogFile();
 
     return 0;
